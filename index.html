@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ListGitHubRepos</title>
+        <meta name="description" content="App to list GitHub Repos for an user">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Normalize CSS-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <!--Jquery CDN-->
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous"></script>
+        <!--JS file-->
+        <script src="main.js"></script>
+
+    </head>
+    <body>
+        <main class="list-repos" role="main">
+            <h1>GitHub Repos of the user</h1>
+        <form>
+            <label for="user-name">Enter the github User handle</label>
+            <input type="text" id="user-name" name="user-name">
+            <input type="submit" value="List the Repos!">
+        </form>
+        <h3 class="js-error-message"></h3>
+        <section class="github-repos"></section>
+    </main>
+    </body>
+</html>

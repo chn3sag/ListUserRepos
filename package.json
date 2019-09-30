@@ -1,0 +1,23 @@
+{
+  "name": "listrepos",
+  "version": "1.0.0",
+  "description": "App to list user repos",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chn3sag/ListUserRepos.git"
+  },
+  "keywords": [
+    "GitHub",
+    "Repos"
+  ],
+  "author": "Chandrika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chn3sag/ListUserRepos/issues"
+  },
+  "homepage": "https://github.com/chn3sag/ListUserRepos#readme"
+}
